@@ -1,0 +1,4 @@
+Student name: Bruno Coimbra Marques
+Student number: 645664
+Student class: HAIT1B
+URL student GitHub repository: https://github.com/brunomarques-inholland/i-want-solar-energy
