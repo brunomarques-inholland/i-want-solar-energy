@@ -1,3 +1,4 @@
+/* Only for flexbox of index page */
 * {
     box-sizing: border-box;
 }
@@ -53,9 +54,14 @@ article {
         flex: 0 0 100%;
     }
 
-    .logo, .movie {
+    .logo{
         display: none;
-        visibility: none;
+        visibility: hidden;
+    }
+
+    .movie {
+        display: none;
+        visibility: hidden;
     }
 
     .aside {
@@ -185,10 +191,12 @@ article {
     .student {
         order: 1;
         flex: 0 0 100%;
+        flex-grow: 2;
     }
 
     .cookie {
         order: 2;
         flex: 0 0 100%;
+        flex-grow: 1;
     }
 }

@@ -4,19 +4,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="css/flexbox.css" type="text/css">
-    <link rel="stylesheet" href="css/style.css" type="text/css">
-    <title>Index</title>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:wght@100&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Notable&family=Roboto:wght@100&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="./css/flexbox.css" type="text/css">
+    <link rel="stylesheet" href="./css/style.css" type="text/css">
+    <link rel="icon" href="img/logo.png">
+    <meta name="author" content="Bruno Coimbra Marques">
+    <meta name="description"
+        content="With this website, we will try to inform you as much as possible about solar energy, and also offer some products recommendation in every page so that you can explore new products.You can also of course contact us in the contact form for more questions .My name is Bruno and I am a student at Inholland Applied Sciences University.">
+    <meta name="keywords" content="HTML, CSS, Solar Energy, Recommendation, Information, University">
+    <title>Inholland Solar Energy - Home</title>
 </head>
 
 <body>
     <header class="navbar">
-        <img class="logo" width="30px" src="img/logo.png" alt="Logo"></img>
-        <h1 class="title">  Inholland Solar Energy </h1>
+        <img title="logo" class="logo" src="img/logo.png" alt="Logo">
+        <h1 class="title"> Inholland Solar Energy </h1>
         <h2 class="payoff">Save the world by saving energy</h2>
         <nav class="nav flexNav">
-            <!-- <button class="dropbtn">Menu</button> -->
-            <img class="dropbtn" src="img/menu.png" alt="Menu">
+            <img title="menu" class="dropbtn" src="img/menu.png" alt="Menu">
             <ul>
                 <li><a href="contact.html">Contact</a></li>
                 <li><a href="eusolar.html">Europe solar</a></li>
@@ -26,17 +32,17 @@
     </header>
     <main class="mainIndex">
         <figure class="movie">
-            <video width="100%" onloadeddata="this.play();" playsinline loop muted>
+            <video class="video" onloadeddata="this.play();" playsinline loop muted>
                 <source src="img/promotionalVideo.mp4" type="video/mp4" />
                 <source src="img/promotionalVideo.ogv" type="video/ogg" />
                 Your browser does not support the video tag or the file format of this video.
             </video>
-        <figcaption>Free Source Video</figcaption>
+            <figcaption>Free Source Video</figcaption>
         </figure>
-        <section class="prodGroup">
+        <aside class="prodGroup">
             <article class="prod1">
-                <header class="titleArticle">Phoenix Inverter Smart 1600VA - 3000VA</header>
-                <section class="container">
+                <h3 class="titleArticle">Phoenix Inverter Smart 1600VA - 3000VA</h3>
+                <aside class="container">
                     <p class="textArticle">The Phoenix Inverter Smart is an efficient and reliable inverter. Built on
                         our proven and field tested Phoenix inverter platform, it now comes with a new slimmer design
                         and full metal casing. Models are available in 1600VA, 2000VA and 3000VA for 12, 24 or 48V
@@ -45,37 +51,37 @@
                         home. A toroidal transformer provides a high peak power surge capacity, stable voltage,
                         frequency and high quality sine-wave.
                     </p>
-                    <section class="imageSection">
+                    <aside class="imageSection">
                         <a href="https://www.ikwilzonneenergie.nl/Victron-Energy-omvormer-smart-12V-2000W-230V">
-                            <img class="imgArticle" src="img/index/article1.png" alt="Phoenix Inverter">
+                            <img class="imgArticle" src="img/index/article1.png" alt="Phoenix Inverter" title="Victron Energy omvormer Smart 12V">
                         </a>
-                    </section>
-                </section>
+                    </aside>
+                </aside>
                 <footer class="footerArticle"><a class="moreInfo"
                         href="https://www.ikwilzonneenergie.nl/Victron-Energy-omvormer-smart-12V-2000W-230V">More
                         Info</a></footer>
             </article>
             <article class="prod2">
-                <header class="titleArticle">SmartSolar MPPT 150/35</header>
-                <section class="container">
+                <h3 class="titleArticle">SmartSolar MPPT 150/35</h3>
+                <aside class="container">
                     <p class="textArticle">A solar charger gathers energy from your solar panels, and stores it in your
                         batteries. Using the latest, fastest technology, SmartSolar maximises this energy-harvest,
                         driving it intelligently to achieve full charge in the shortest possible time. SmartSolar
                         maintains battery health, extending its life.
                     </p>
-                    <section class="imageSection">
+                    <aside class="imageSection">
                         <a href="https://www.ikwilzonneenergie.nl/Victron-SmartSolar-MPPT-150-35-12V-24V-48V">
-                            <img class="imgArticle" src="img/index/article2.png" alt="Victron Smart Solar">
+                            <img class="imgArticle" src="img/index/article2.png" alt="Victron Smart Solar" title="Victron SmartSolar MPPT">
                         </a>
-                    </section>
-                </section>
+                    </aside>
+                </aside>
                 <footer class="footerArticle"><a class="moreInfo"
                         href="https://www.ikwilzonneenergie.nl/Victron-SmartSolar-MPPT-150-35-12V-24V-48V">More info</a>
                 </footer>
             </article>
             <article class="prod3">
-                <header class="titleArticle">SMA STP8.0 Solar panels inverter 3-phases</header>
-                <section class="container">
+                <h3 class="titleArticle">SMA STP8.0 Solar panels inverter 3-phases</h3>
+                <aside class="container">
                     <p class="textArticle">The Sunny Tripower 8.0–10.0 makes PV systems in private households and small
                         commercial applications especially powerful. It combines top inverter performance with maximum
                         ease and comfort for its users. With integrated services and shade solutions, it can meet any
@@ -83,19 +89,19 @@
                         electricity costs. With its reduced weight, this three-phase Sunny Tripower can be installed
                         quickly while taking up minimal space. The Sunny Tripower can be commissioned quickly via
                         smartphone or tablet thanks to its integrated web interface. </p>
-                    <section class="imageSection">
+                    <aside class="imageSection">
                         <a href="https://www.ikwilzonneenergie.nl/SMA-Omvormer-STP-80-3AV-40">
-                            <img class="imgArticle" src="img/index/article3.png" alt="SMA Omvormer">
+                            <img class="imgArticle" src="img/index/article3.png" alt="SMA Omvormer" title="SMA Omvormer STP 8.0-3AV-40">
                         </a>
-                    </section>
-                </section>
+                    </aside>
+                </aside>
                 <footer class="footerArticle">
                     <a class="moreInfo" href="https://www.ikwilzonneenergie.nl/SMA-Omvormer-STP-80-3AV-40">More Info</a>
                 </footer>
             </article>
-        </section>
-        <section class="aside">
-            <header>5 reasons to use solar power</header>
+        </aside>
+        <aside class="aside">
+            <h3>5 reasons to use solar power</h3>
             <ol class="listOfReasons">
                 <li><em><strong>Solar Energy</strong></em> is great for the environment</li>
                 <li><em><strong>Solar Energy</strong></em> causes less electricity loss</li>
@@ -103,11 +109,11 @@
                 <li><em><strong>Solar Energy</strong></em> reduces electricity bills</li>
                 <li><em><strong>Solar Energy</strong></em> has low maintenance costs</li>
             </ol>
-        </section>
+        </aside>
     </main>
     <footer class="footer">
-        <section class="student">&#169; 2020 Coimbra Marques Bruno</section>
-        <section class="cookie">Cookie Statement</section>
+        <aside class="student">&#169; 2020 Coimbra Marques Bruno</aside>
+        <aside class="cookie">Cookie Statement</aside>
     </footer>
 </body>
 

@@ -1,26 +1,25 @@
 /* General styling */
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Roboto', sans-serif;
 }
 
 body {
     margin-left: 3%;
     margin-right: 3%;
+    font-family: Arial, 'Helvetica', sans-serif;
 }
 
 .logo {
-    margin-top: 5px;
+    margin-top: 0.3125rem;
 }
 
 .title {
     font-family: 'Bebas Neue', cursive;
-    letter-spacing: 2px;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
 }
 
 .payoff {
@@ -47,11 +46,13 @@ li a {
     text-align: center;
     padding: 5px 10px;
     margin-left: 10px;
-    text-decoration: none;
+    text-decoration: none
 }
 
 li a:hover {
     background-color: #ecf0f1;
+    border-bottom: 1px solid;
+    
 }
 
 .navbar {
@@ -61,7 +62,8 @@ li a:hover {
 .titleArticle {
     font-size: 20px;
     margin-top: 30px;
-    border-bottom: 2px solid #7f8c8d;
+    border-bottom: 2px solid;
+    border-color: #7f8c8d;
 }
 
 .container {
@@ -70,26 +72,24 @@ li a:hover {
     margin-top: 30px;
 }
 
-.imageSection {
+.textArticle + section {
     flex: 1 0 0%;
     text-align: left;
 }
 
 .imgArticle {
     vertical-align: top;
-    /* here */
     width: 300px;
     margin-top: 10px;
     margin-bottom: 10px;
 }
 
-.textArticle {
-    flex: 1 0 0%;
-    margin: 0 auto;
-}
+
 
 .textArticle {
     line-height: 30px;
+    word-spacing: 3px;
+    text-indent: 3px;
 }
 
 .footerArticle {
@@ -100,7 +100,7 @@ li a:hover {
     color: #3498db;
 }
 
-.aside header {
+.aside h3 {
     margin-left: 60px;
     margin-top: 30px;
     border-bottom: 2px solid #7f8c8d;
@@ -131,6 +131,9 @@ li a:hover {
     color: #FFF;
     background-color: #FA0;
     opacity: 0.5;
+    z-index: 9999;
+    font-family: 'Notable', sans-serif;
+    font-size: 8px;
 }
 
 .dropbtn,
@@ -149,25 +152,26 @@ li a:hover {
 }
 
 .articleGroup>article h2 {
-    border-bottom: 2px solid #3498db;
+    border-bottom: 2px double #3498db;
+    border-width: medium;
 }
 
-.aside1>img {
-    width: 300px;
+.aside1Solar>a>img {
+    width: 200px;
 
 }
 
-.aside2>img {
+.aside2Solar>a>img {
     width: 200px;
 }
 
-.aside3>img {
-    width: 150px;
+.aside3Solar>a>img {
+    width: 400px;
 }
 
-.aside1>img,
-.aside2>img,
-.aside3>img {
+.aside1Solar>a>img,
+.aside2Solar>a>img,
+.aside3Solar>a>img {
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -183,10 +187,18 @@ td {
     padding: 5px;
 }
 
-thead {
+table thead:first-child {
     background-color: #34495e;
     color: white;
 }
+
+tbody tr:nth-child(even) {
+    background: #CFF;
+  }
+
+  tbody tr:nth-child(odd) {
+    background: #FFF;
+  }
 
 .groupAsideEusolar>aside>a>img {
     width: 300px;
@@ -219,7 +231,6 @@ input[type=text] {
 
 .submitButton {
     background-color: #008CBA;
-    /* Green */
     border: none;
     color: white;
     padding: 5px 20px;
@@ -229,7 +240,7 @@ input[type=text] {
     font-size: 16px;
 }
 
-html body main.mainContact section.groupAsideContact aside a img {
+html body main.mainContact aside.groupAsideContact aside a img {
     width: 300px;
     margin-left: auto;
     margin-right: auto;
@@ -256,6 +267,27 @@ em {
     font-style: normal;
 }
 
+section a img:active {
+    background-color: #eeeeee;
+}
+
+p::first-letter{
+    color: #008CBA;
+    font-size: 150%;
+}
+
+.logo{
+    width: 30px;
+}
+
+.video{
+    width: 100%;
+}
+
+.tableEuData > h3:nth-child(1){
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
 
 @media(min-width:480px) and (max-width:1179px) {
 
@@ -264,7 +296,7 @@ em {
         float: left;
     }
 
-    .aside header {
+    .aside h3 {
         margin-left: 0px;
         margin-top: 10px;
     }
@@ -293,8 +325,7 @@ em {
         width: 230px;
         margin-top: 80px;
     }
-
-    html body main.mainContact section.groupAsideContact aside a img {
+    html body main.mainContact aside.groupAsideContact aside a img {
         width: 200px;
     }
 
@@ -378,12 +409,11 @@ em {
         background-color: white;
     }
 
-    /* Show the dropdown menu on hover */
     .nav:hover ul {
         display: block;
     }
 
-    .aside header {
+    .aside h3 {
         margin-left: 0;
     }
 

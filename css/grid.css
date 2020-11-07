@@ -167,7 +167,7 @@
 
     .article4 {
         display: none;
-        visibility: none;
+        visibility: hidden;
     }
 
     .asideGroup {
@@ -178,9 +178,9 @@
         grid-row-gap: 0px;
     }
 
-    .aside3 {
+    .aside3Solar {
         display: none;
-        visibility: none;
+        visibility: hidden;
     }
 
     .mainEusolar {
@@ -217,7 +217,7 @@
 
     .aside1Eu {
         display: none;
-        visibility: none;
+        visibility: hidden;
     }
 
     .aside2Eu{
@@ -270,7 +270,7 @@
 
     .logo {
         display: none;
-        visibility: none;
+        visibility: hidden;
     }
 
     .articleGroup {
@@ -299,7 +299,7 @@
     .article4,
     .article6 {
         display: none;
-        visibility: none;
+        visibility: hidden;
     }
 
     .asideGroup {
@@ -338,7 +338,7 @@
 
     .dataArticle {
         display: none;
-        visibility: none;
+        visibility: hidden;
     }
 
     .mainContact {
