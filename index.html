@@ -1,30 +1,114 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="flexbox.css">
+  <link rel="stylesheet" href="css/flexbox.css" type="text/css">
+    <link rel="stylesheet" href="css/style.css" type="text/css">
     <title>Index</title>
 </head>
+
 <body>
-    <div class="navbar">
-        <div class="logo">logo</div>
-        <div class="title">title</div>
-        <div class="payoff">payoff</div>
-        <div class="nav">nav</div>
-    </div>
+    <header class="navbar">
+        <img class="logo" width="30px" src="img/logo.png" alt="Logo"></img>
+        <h1 class="title">  Inholland Solar Energy </h1>
+        <h2 class="payoff">Save the world by saving energy</h2>
+        <nav class="nav flexNav">
+            <!-- <button class="dropbtn">Menu</button> -->
+            <img class="dropbtn" src="img/menu.png" alt="Menu">
+            <ul>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="eusolar.html">Europe solar</a></li>
+                <li><a href="howsolarworks.html">How does solar work?</a></li>
+            </ul>
+        </nav>
+    </header>
     <main class="mainIndex">
-        <div class="movie">movie - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum pretium vel purus tempus lacinia. Fusce mattis laoreet nisi a fringilla. Duis mauris nisi, finibus vel urna at, sagittis hendrerit justo. Quisque convallis pulvinar nisi, et posuere erat viverra quis. Maecenas sed nunc eu urna tempor eleifend vitae non dui. Phasellus cursus vehicula odio, nec fermentum libero finibus sed. Ut cursus lorem facilisis, mattis turpis eget, eleifend nisl. Vestibulum rutrum dui sit amet pretium tempor. Sed imperdiet, libero ac congue fringilla, tellus dolor porta purus, ut condimentum velit justo a neque. </div>
-        <div class="prodGroup">
-            <div class="prod1">prod1 - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum pretium vel purus tempus lacinia. Fusce mattis laoreet nisi a fringilla. Duis mauris nisi, finibus vel urna at, sagittis hendrerit justo. Quisque convallis pulvinar nisi, et posuere erat viverra quis. Maecenas sed nunc eu urna tempor eleifend vitae non dui. Phasellus cursus vehicula odio, nec fermentum libero finibus sed. Ut cursus lorem facilisis, mattis turpis eget, eleifend nisl. Vestibulum rutrum dui sit amet pretium tempor. Sed imperdiet, libero ac congue fringilla, tellus dolor porta purus, ut condimentum velit justo a neque. </div>
-            <div class="prod2">prod2 - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum pretium vel purus tempus lacinia. Fusce mattis laoreet nisi a fringilla. Duis mauris nisi, finibus vel urna at, sagittis hendrerit justo. Quisque convallis pulvinar nisi, et posuere erat viverra quis. Maecenas sed nunc eu urna tempor eleifend vitae non dui. Phasellus cursus vehicula odio, nec fermentum libero finibus sed. Ut cursus lorem facilisis, mattis turpis eget, eleifend nisl. Vestibulum rutrum dui sit amet pretium tempor. Sed imperdiet, libero ac congue fringilla, tellus dolor porta purus, ut condimentum velit justo a neque. </div>
-            <div class="prod3">prod3 - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum pretium vel purus tempus lacinia. Fusce mattis laoreet nisi a fringilla. Duis mauris nisi, finibus vel urna at, sagittis hendrerit justo. Quisque convallis pulvinar nisi, et posuere erat viverra quis. Maecenas sed nunc eu urna tempor eleifend vitae non dui. Phasellus cursus vehicula odio, nec fermentum libero finibus sed. Ut cursus lorem facilisis, mattis turpis eget, eleifend nisl. Vestibulum rutrum dui sit amet pretium tempor. Sed imperdiet, libero ac congue fringilla, tellus dolor porta purus, ut condimentum velit justo a neque. </div>
-        </div>
-        <div class="aside">aside - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum pretium vel purus tempus lacinia. Fusce mattis laoreet nisi a fringilla. Duis mauris nisi, finibus vel urna at, sagittis hendrerit justo. Quisque convallis pulvinar nisi, et posuere erat viverra quis. Maecenas sed nunc eu urna tempor eleifend vitae non dui. Phasellus cursus vehicula odio, nec fermentum libero finibus sed. Ut cursus lorem facilisis, mattis turpis eget, eleifend nisl. Vestibulum rutrum dui sit amet pretium tempor. Sed imperdiet, libero ac congue fringilla, tellus dolor porta purus, ut condimentum velit justo a neque. </div>
+        <figure class="movie">
+            <video width="100%" onloadeddata="this.play();" playsinline loop muted>
+                <source src="img/promotionalVideo.mp4" type="video/mp4" />
+                <source src="img/promotionalVideo.ogv" type="video/ogg" />
+                Your browser does not support the video tag or the file format of this video.
+            </video>
+        <figcaption>Free Source Video</figcaption>
+        </figure>
+        <section class="prodGroup">
+            <article class="prod1">
+                <header class="titleArticle">Phoenix Inverter Smart 1600VA - 3000VA</header>
+                <section class="container">
+                    <p class="textArticle">The Phoenix Inverter Smart is an efficient and reliable inverter. Built on
+                        our proven and field tested Phoenix inverter platform, it now comes with a new slimmer design
+                        and full metal casing. Models are available in 1600VA, 2000VA and 3000VA for 12, 24 or 48V
+                        systems.
+                        It’s powerful enough to supply most common plug in appliances in your car, boat, caravan or
+                        home. A toroidal transformer provides a high peak power surge capacity, stable voltage,
+                        frequency and high quality sine-wave.
+                    </p>
+                    <section class="imageSection">
+                        <a href="https://www.ikwilzonneenergie.nl/Victron-Energy-omvormer-smart-12V-2000W-230V">
+                            <img class="imgArticle" src="img/index/article1.png" alt="Phoenix Inverter">
+                        </a>
+                    </section>
+                </section>
+                <footer class="footerArticle"><a class="moreInfo"
+                        href="https://www.ikwilzonneenergie.nl/Victron-Energy-omvormer-smart-12V-2000W-230V">More
+                        Info</a></footer>
+            </article>
+            <article class="prod2">
+                <header class="titleArticle">SmartSolar MPPT 150/35</header>
+                <section class="container">
+                    <p class="textArticle">A solar charger gathers energy from your solar panels, and stores it in your
+                        batteries. Using the latest, fastest technology, SmartSolar maximises this energy-harvest,
+                        driving it intelligently to achieve full charge in the shortest possible time. SmartSolar
+                        maintains battery health, extending its life.
+                    </p>
+                    <section class="imageSection">
+                        <a href="https://www.ikwilzonneenergie.nl/Victron-SmartSolar-MPPT-150-35-12V-24V-48V">
+                            <img class="imgArticle" src="img/index/article2.png" alt="Victron Smart Solar">
+                        </a>
+                    </section>
+                </section>
+                <footer class="footerArticle"><a class="moreInfo"
+                        href="https://www.ikwilzonneenergie.nl/Victron-SmartSolar-MPPT-150-35-12V-24V-48V">More info</a>
+                </footer>
+            </article>
+            <article class="prod3">
+                <header class="titleArticle">SMA STP8.0 Solar panels inverter 3-phases</header>
+                <section class="container">
+                    <p class="textArticle">The Sunny Tripower 8.0–10.0 makes PV systems in private households and small
+                        commercial applications especially powerful. It combines top inverter performance with maximum
+                        ease and comfort for its users. With integrated services and shade solutions, it can meet any
+                        challenge found on roofs. The Sunny Tripower reliably ensures maximum solar yields and reduces
+                        electricity costs. With its reduced weight, this three-phase Sunny Tripower can be installed
+                        quickly while taking up minimal space. The Sunny Tripower can be commissioned quickly via
+                        smartphone or tablet thanks to its integrated web interface. </p>
+                    <section class="imageSection">
+                        <a href="https://www.ikwilzonneenergie.nl/SMA-Omvormer-STP-80-3AV-40">
+                            <img class="imgArticle" src="img/index/article3.png" alt="SMA Omvormer">
+                        </a>
+                    </section>
+                </section>
+                <footer class="footerArticle">
+                    <a class="moreInfo" href="https://www.ikwilzonneenergie.nl/SMA-Omvormer-STP-80-3AV-40">More Info</a>
+                </footer>
+            </article>
+        </section>
+        <section class="aside">
+            <header>5 reasons to use solar power</header>
+            <ol class="listOfReasons">
+                <li><em><strong>Solar Energy</strong></em> is great for the environment</li>
+                <li><em><strong>Solar Energy</strong></em> causes less electricity loss</li>
+                <li><em><strong>Solar Energy</strong></em> is a free source of energy</li>
+                <li><em><strong>Solar Energy</strong></em> reduces electricity bills</li>
+                <li><em><strong>Solar Energy</strong></em> has low maintenance costs</li>
+            </ol>
+        </section>
     </main>
     <footer class="footer">
-        <div class="student">student</div>
-        <div class="cookie">cookie</div>
+        <section class="student">&#169; 2020 Coimbra Marques Bruno</section>
+        <section class="cookie">Cookie Statement</section>
     </footer>
 </body>
+
 </html>

@@ -1,0 +1,434 @@
+/* General styling */
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    margin-left: 3%;
+    margin-right: 3%;
+}
+
+.logo {
+    margin-top: 5px;
+}
+
+.title {
+    font-family: 'Bebas Neue', cursive;
+    letter-spacing: 2px;
+}
+
+.payoff {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 18px;
+    margin-left: 50px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    margin-top: -50px;
+}
+
+.nav li {
+    float: right;
+}
+
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 5px 10px;
+    margin-left: 10px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #ecf0f1;
+}
+
+.navbar {
+    padding-bottom: 10px;
+}
+
+.titleArticle {
+    font-size: 20px;
+    margin-top: 30px;
+    border-bottom: 2px solid #7f8c8d;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+}
+
+.imageSection {
+    flex: 1 0 0%;
+    text-align: left;
+}
+
+.imgArticle {
+    vertical-align: top;
+    /* here */
+    width: 300px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.textArticle {
+    flex: 1 0 0%;
+    margin: 0 auto;
+}
+
+.textArticle {
+    line-height: 30px;
+}
+
+.footerArticle {
+    margin-top: 10px;
+}
+
+.moreInfo {
+    color: #3498db;
+}
+
+.aside header {
+    margin-left: 60px;
+    margin-top: 30px;
+    border-bottom: 2px solid #7f8c8d;
+    font-size: 20px;
+
+}
+
+.listOfReasons {
+    margin-left: 80px;
+    margin-top: 20px;
+    line-height: 30px;
+    font-size: 16px;
+}
+
+.footer {
+    background-color: #282830;
+    color: white;
+    padding: 10px;
+    margin-top: 20px;
+    height: 5em;
+}
+
+.cookie {
+    position: fixed;
+    right: 50px;
+    bottom: 20px;
+    padding: 10px;
+    color: #FFF;
+    background-color: #FA0;
+    opacity: 0.5;
+}
+
+.dropbtn,
+.dropbtnGrid {
+    display: none;
+    visibility: hidden;
+}
+
+.articleGroup>article {
+    padding: 15px;
+}
+
+.articleGroup>article p {
+    line-height: 25px;
+    margin-top: 15px;
+}
+
+.articleGroup>article h2 {
+    border-bottom: 2px solid #3498db;
+}
+
+.aside1>img {
+    width: 300px;
+
+}
+
+.aside2>img {
+    width: 200px;
+}
+
+.aside3>img {
+    width: 150px;
+}
+
+.aside1>img,
+.aside2>img,
+.aside3>img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+table,
+td,
+td {
+    border: 1px solid #7f8c8d;
+    border-collapse: collapse;
+    padding: 5px;
+}
+
+thead {
+    background-color: #34495e;
+    color: white;
+}
+
+.groupAsideEusolar>aside>a>img {
+    width: 300px;
+    margin: auto auto;
+    display: block;
+    margin-top: 100px;
+}
+
+.aside1>a:nth-child(1)>img:nth-child(1) {
+    width: 400px;
+    margin-top: 20px;
+}
+
+input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    font-size: 16px;
+
+}
+
+.form {
+    padding: 20px;
+}
+
+.form fieldset {
+    padding: 20px;
+}
+
+.submitButton {
+    background-color: #008CBA;
+    /* Green */
+    border: none;
+    color: white;
+    padding: 5px 20px;
+    text-align: center;
+    text-decoration: none;
+    float: right;
+    font-size: 16px;
+}
+
+html body main.mainContact section.groupAsideContact aside a img {
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-top: 50px;
+}
+
+textarea {
+    width: 100%;
+    height: 350px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+em {
+    color: #008CBA;
+    font-style: normal;
+}
+
+
+@media(min-width:480px) and (max-width:1179px) {
+
+    ul {
+        margin-top: 0px;
+        float: left;
+    }
+
+    .aside header {
+        margin-left: 0px;
+        margin-top: 10px;
+    }
+
+    .listOfReasons {
+        margin-left: 20px;
+        margin-top: 20px;
+        margin-bottom: 40px;
+    }
+
+    .container {
+        flex-direction: row-reverse;
+    }
+
+    table,
+    td,
+    td {
+        font-size: 12px;
+    }
+
+    .groupAsideEusolar>aside>a>img {
+        width: 230px;
+    }
+
+    .aside1>a:nth-child(1)>img:nth-child(1) {
+        width: 230px;
+        margin-top: 80px;
+    }
+
+    html body main.mainContact section.groupAsideContact aside a img {
+        width: 200px;
+    }
+
+    .nav ul {
+        float: right;
+    }
+
+    body>header>nav>img {
+        width: 60px;
+    }
+}
+
+
+
+
+@media(max-width:480px) {
+
+    .navbar {
+        margin-top: 10px;
+    }
+
+    .title {
+        margin: 0;
+        padding: 0;
+        font-size: 100%;
+        font-weight: normal;
+    }
+
+    .payoff {
+        font-size: 90%;
+        margin-left: 2px;
+    }
+
+    ul {
+        display: none;
+    }
+
+    .dropbtnGrid,
+    .dropbtn {
+        color: white;
+        font-size: 16px;
+        border: none;
+        cursor: pointer;
+        width: 40px;
+        margin: auto;
+    }
+
+    .dropbtnGrid {
+        width: 80%;
+        float: right;
+        width: 40px;
+        margin-right: 20%;
+    }
+
+
+
+    ul {
+        display: none;
+        position: absolute;
+        margin-top: 40px;
+        background-color: #f9f9f9;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+        z-index: 1;
+    }
+
+    ul li {
+        color: black;
+        width: 100%;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+
+    }
+
+    ul li:hover {
+        background-color: white;
+    }
+
+    li a:hover {
+        background-color: white;
+    }
+
+    /* Show the dropdown menu on hover */
+    .nav:hover ul {
+        display: block;
+    }
+
+    .aside header {
+        margin-left: 0;
+    }
+
+    .listOfReasons {
+        margin-left: 25px;
+    }
+
+    .container {
+        display: block;
+    }
+
+    .imageSection a img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .dropbtnGrid,
+    .dropbtn {
+        display: block;
+        visibility: visible;
+    }
+
+    table,
+    td,
+    td {
+        font-size: 12px;
+    }
+
+    .groupAsideEusolar>aside>a>img {
+        width: 150px;
+    }
+
+    .aside1>a:nth-child(1)>img:nth-child(1) {
+        width: 250px;
+    }
+
+    table,
+    td,
+    td,
+    .copyrightinfo {
+        font-size: 10px;
+    }
+
+    .flexNav ul {
+        right: 0px;
+    }
+}
