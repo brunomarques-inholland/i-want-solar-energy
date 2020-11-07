@@ -212,7 +212,7 @@
         grid-template-columns: repeat(2, 1fr);
         grid-template-rows: 1fr;
         grid-column-gap: 0px;
-        grid-row-gap: 0px; 
+        grid-row-gap: 0px;
     }
 
     .aside1Eu {
@@ -220,11 +220,11 @@
         visibility: hidden;
     }
 
-    .aside2Eu{
+    .aside2Eu {
         grid-area: 1 / 1 / 2 / 2;
     }
 
-    .aside3Eu{
+    .aside3Eu {
         grid-area: 1 / 2 / 2 / 3;
     }
 
@@ -233,7 +233,7 @@
         grid-template-columns: repeat(2, auto);
         grid-template-rows: 1fr;
         grid-column-gap: 0px;
-        grid-row-gap: 0px; 
+        grid-row-gap: 0px;
     }
 
     .form {

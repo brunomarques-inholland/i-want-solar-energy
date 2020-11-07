@@ -52,7 +52,7 @@ li a {
 li a:hover {
     background-color: #ecf0f1;
     border-bottom: 1px solid;
-    
+
 }
 
 .navbar {
@@ -72,7 +72,7 @@ li a:hover {
     margin-top: 30px;
 }
 
-.textArticle + section {
+.textArticle+section {
     flex: 1 0 0%;
     text-align: left;
 }
@@ -194,11 +194,11 @@ table thead:first-child {
 
 tbody tr:nth-child(even) {
     background: #CFF;
-  }
+}
 
-  tbody tr:nth-child(odd) {
+tbody tr:nth-child(odd) {
     background: #FFF;
-  }
+}
 
 .groupAsideEusolar>aside>a>img {
     width: 300px;
@@ -267,24 +267,24 @@ em {
     font-style: normal;
 }
 
-section a img:active {
+aside a img:active {
     background-color: #eeeeee;
 }
 
-p::first-letter{
+p::first-letter {
     color: #008CBA;
     font-size: 150%;
 }
 
-.logo{
+.logo {
     width: 30px;
 }
 
-.video{
+.video {
     width: 100%;
 }
 
-.tableEuData > h3:nth-child(1){
+.tableEuData>h3:nth-child(1) {
     margin-top: 20px;
     margin-bottom: 5px;
 }
@@ -325,6 +325,7 @@ p::first-letter{
         width: 230px;
         margin-top: 80px;
     }
+
     html body main.mainContact aside.groupAsideContact aside a img {
         width: 200px;
     }
@@ -460,5 +461,10 @@ p::first-letter{
 
     .flexNav ul {
         right: 0px;
+    }
+
+    li a:hover {
+        border-bottom: 0px;
+
     }
 }

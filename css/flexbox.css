@@ -29,13 +29,16 @@ article {
     flex-wrap: wrap;
 }
 
-.mainIndex, .footer{
+.mainIndex,
+.footer {
     display: flex;
     flex-wrap: wrap;
 }
 
 @media(max-width:480px) {
-    .navbar, .footer {
+
+    .navbar,
+    .footer {
         height: 50px;
     }
 
@@ -54,7 +57,7 @@ article {
         flex: 0 0 100%;
     }
 
-    .logo{
+    .logo {
         display: none;
         visibility: hidden;
     }
