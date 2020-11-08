@@ -57,6 +57,7 @@ li a:hover {
 
 .navbar {
     padding-bottom: 10px;
+    background-color: white;
 }
 
 .titleArticle {
@@ -301,6 +302,24 @@ p::first-letter {
     color: #3498db;
 }
 
+.aside h3{
+    position: fixed;
+    top: 0;
+    z-index: -1;
+}
+
+.listOfReasons{
+    position: fixed;
+    top: 40px;
+    z-index: -1;
+}
+
+.sectionAsideIndex{
+    position: fixed;
+    top: 200px;
+    z-index: -1;
+}
+
 @media(min-width:480px) and (max-width:1179px) {
 
     ul {
@@ -348,6 +367,28 @@ p::first-letter {
 
     body>header>nav>img {
         width: 60px;
+    }
+
+    .aside h3{
+        z-index: -1;
+    }
+    
+    .listOfReasons{
+        z-index: -1;
+    }
+    
+    .sectionAsideIndex{
+        position: fixed;
+        margin-top: -200px;
+        z-index: -1;
+        height: 220px;
+        width: 330px;
+        background-color: white;
+        opacity: 0.95;
+    }
+
+    .prodGroup{
+        z-index: -2;
     }
 }
 
@@ -478,5 +519,31 @@ p::first-letter {
     li a:hover {
         border-bottom: 0px;
 
+    }
+
+    .aside h3{
+        z-index: -1;
+        margin-top: 60px;
+    }
+    
+    .listOfReasons{
+        z-index: -1;
+        margin-top: 60px;
+    }
+    
+    .sectionAsideIndex{
+        position: fixed;
+        margin-top: -160px;
+        z-index: -1;
+        height: 220px;
+        width: 330px;
+        background-color: white;
+        opacity: 0.95;
+        
+    }
+
+    .prodGroup{
+        z-index: -2;
+        margin-top: 180px;
     }
 }
