@@ -218,7 +218,14 @@ input[type=text] {
     margin: 8px 0;
     box-sizing: border-box;
     font-size: 16px;
+}
 
+input[type=email] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    font-size: 16px;
 }
 
 .form {
@@ -287,6 +294,10 @@ p::first-letter {
 .tableEuData>h3:nth-child(1) {
     margin-top: 20px;
     margin-bottom: 5px;
+}
+
+.originalVideo {
+    color: #3498db;
 }
 
 @media(min-width:480px) and (max-width:1179px) {
