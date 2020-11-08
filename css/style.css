@@ -306,12 +306,14 @@ p::first-letter {
     position: fixed;
     top: 0;
     z-index: -1;
+    width: 278px;
 }
 
 .listOfReasons{
     position: fixed;
     top: 40px;
     z-index: -1;
+    width: 300px;
 }
 
 .sectionAsideIndex{
